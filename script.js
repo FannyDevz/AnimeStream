@@ -294,8 +294,8 @@ function displayWatchInfo(episodeData) {
 // Donate Alert
 const spanElement = document.getElementById("spanDonate");
 let contentDonate = [
-    "<span>Support this website by making a donation starting from 1$!</span><a href='https://sociabuzz.com/willydev/tribe' target='_blank' title='Thank you!'>DONATE</a>",
-    "<span>Dukung website ini dengan cara berdonasi mulai dari Rp1000!</span><a href='https://sociabuzz.com/willydev/tribe' target='_blank' title='Thank you!'>DONASI</a>"
+    "<span>Support this website by making a donation starting from 1$!</span><a href='#' target='_blank' title='Thank you!'>DONATE</a>",
+    "<span>Dukung website ini dengan cara berdonasi mulai dari Rp1000!</span><a href='#' target='_blank' title='Thank you!'>DONASI</a>"
 ];
 let indexDonate = 0;
 setInterval(function () {
